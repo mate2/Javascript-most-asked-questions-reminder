@@ -56,14 +56,14 @@ Functional programing is building a software  with only pure functions, avoiding
 ---
 
 #### [Object Oriented Programming] What is oop in javascript ? ####
-It is prototype based, not relying on Class.
+It is prototype based, not relying on Class. A prototype is a working object instance. Objects inherit directly from other objects.
 
 [https://www.freecodecamp.org/news/how-javascript-implements-oop/](https://www.freecodecamp.org/news/how-javascript-implements-oop/)
 [https://medium.com/javascript-scene/master-the-javascript-interview-what-s-the-difference-between-class-prototypal-inheritance-e4cd0a7562e9](https://medium.com/javascript-scene/master-the-javascript-interview-what-s-the-difference-between-class-prototypal-inheritance-e4cd0a7562e9)
 
 ---
 
-#### [* Generators] What is *() function ? ####
+#### [* Generators] What is * function (star function) ? ####
 It is a generator function. You can call `.next()` to get the next yield value.
 
 ```
@@ -127,6 +127,12 @@ Main differences with standard objects :
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
 
 ---
+
+#### [Currying] What is currying ? ####
+Currying is a transformation of functions that translates a function with many arguments (`f(a, b, c)`) into a sequence of function with only one argument (`f(a)(b)(c)`).
+[https://codeburst.io/currying-in-javascript-ba51eb9778dc](https://codeburst.io/currying-in-javascript-ba51eb9778dc)
+
+---
 ## Other non Javascript questions ##
 ---
 
@@ -148,3 +154,15 @@ The four principles of object oriented programming are :
 
 [https://www.freecodecamp.org/news/object-oriented-programming-concepts-21bb035f7260/](https://www.freecodecamp.org/news/object-oriented-programming-concepts-21bb035f7260/)
 [https://en.wikipedia.org/wiki/Object-oriented_programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
+
+---
+
+#### [CORS] What does mean CORS ? ####
+Cross Origin Resource Sharing
+it is a mechanism that give a web application running at one origin, access to selected resources from a different origin. A web application executes a cross-origin HTTP request when it requests a resource that has a different origin (domain, protocol, or port) from its own.
+[https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+
+---
+
+#### [DOM] What does mean DOM ? ####
+Document Object Model
